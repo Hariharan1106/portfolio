@@ -9,7 +9,7 @@ export default function Hero({ scrollToSection }) {
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
             Anantha Hariharan V
           </h1>
-          <p className="text-xl md:text-2xl text-purple-300 mb-6">Junior Frontend Developer</p>
+          <p className="text-xl md:text-2xl text-purple-300 mb-6">Junior FullStack Developer</p>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
             Passionate about creating user-friendly web applications with clean, efficient code. 
             Experienced in React, JavaScript, and full-stack development.

@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react';
 
 export default function Navbar({ isMenuOpen, setIsMenuOpen, activeSection, scrollToSection, isScrolled }) {
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-slate-900/90 backdrop-blur-sm'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-grey-900/95 backdrop-blur-sm shadow-lg' : 'bg-slate-900/90 backdrop-blur-sm'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-5">
           <button onClick={() => scrollToSection('home')} className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -11,7 +11,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen, activeSection, scrol
           </button>
           
           {/* Desktop Menu */}
-          <div className="flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {['home', 'about', 'skills', 'experience', 'projects', 'contact'].map((item) => (
               <button
                 key={item}
