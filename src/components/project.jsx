@@ -9,12 +9,12 @@ export default function Projects() {
       tech: ['React', 'Node.js', 'MongoDB', 'JavaScript']
     },
     {
-      name: 'I-Work Tool',
+      name: 'Performance Tracker',
       description: 'Internal employee task manager with forms, filters, and timesheet tracking',
       tech: ['Bootstrap', 'CodeIgniter', 'MySQL', 'JavaScript']
     },
     {
-      name: 'TET Exam Admin Dashboard',
+      name: 'Exam Admin Dashboard',
       description: 'Registration form and admin dashboard with reports and analytics',
       tech: ['Bootstrap', 'CodeIgniter', 'MySQL', 'Charts' , 'JavaScript']
     },

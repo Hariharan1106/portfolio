@@ -17,9 +17,10 @@ export default function Education() {
             <div className="space-y-4">
               <div>
                 <p className="font-semibold text-lg">B.Sc. Computer Science</p>
-                <p className="text-gray-400">KR College of Arts & Science, Kovilpatti</p>
+                <p className="text-gray-400">KR College of Arts & Science, Kovilpatti.</p>
                 <p className="text-pink-400">2019 - 2022</p>
               </div>
+              
             </div>
           </div>
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-purple-500/20 hover:border-purple-500/50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20">
@@ -29,15 +30,16 @@ export default function Education() {
             </div>
             <div className="space-y-4">
               <div>
-                <p className="font-semibold text-lg">Full Stack Development Course</p>
-                <p className="text-gray-400">Greens Technology</p>
-                <p className="text-pink-400">Mar 2023 - Jul 2023</p>
-              </div>
-              <div>
                 <p className="font-semibold text-lg">Project Intern</p>
                 <p className="text-gray-400">Kirubai Technosoft</p>
                 <p className="text-pink-400">May 2024 - Aug 2024</p>
               </div>
+              <div>
+                <p className="font-semibold text-lg">Full Stack Development Course</p>
+                <p className="text-gray-400">Greens Technology</p>
+                <p className="text-pink-400">Mar 2023 - Jul 2023</p>
+              </div>
+              
             </div>
           </div>
         </div>
